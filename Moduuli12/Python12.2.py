@@ -3,7 +3,7 @@ def kelvinmuunnin(kelvin):
     return kelvin - 273.15
 
 
-avain = "468e0269450b7facca54cac35b5b3b3c"
+avain = "api here"
 kaupunki = input("Anna kaupungin nimi: ")
 pyyntö = f"http://api.openweathermap.org/data/2.5/weather?q={kaupunki}&appid={avain}"
 
